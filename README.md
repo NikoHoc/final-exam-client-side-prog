@@ -23,3 +23,13 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Username and Password for testing
+
+- Admin:
+username: admin
+password: adminpassword
+
+- User 1:
+username: hoc
+password: nikohoc20

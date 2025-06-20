@@ -53,7 +53,7 @@ export default function Navbar () {
         <div className="navbar bg-base-100 shadow-sm px-4">
             <div className="flex-1">
                 <span className="btn btn-ghost text-xl" onClick={ () => window.location.reload() }>
-                {username ? `Hi, ${username}` : "Loading..."}
+                {username ? `Welcome, ${username}` : "Loading..."}
                 </span>
             </div>
             <div className="flex-none">

@@ -1,4 +1,6 @@
 ## Setup Project
+Tech stack:
+Next JS, Tailwind CSS, Daisy UI, SweetAlert2
 ```
 git clone
 cd project

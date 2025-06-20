@@ -1,5 +1,6 @@
 "use client"
 
+import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Dashboard from './dashboard/page';
 
@@ -9,6 +10,7 @@ export default function Home() {
     <div>
       <Navbar/>
       <Dashboard/>
+      <Footer/>
     </div>
   );
 }

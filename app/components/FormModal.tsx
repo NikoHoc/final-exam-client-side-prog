@@ -57,7 +57,7 @@ export default function ProductFormModal({ mode, initialData, onClose, onSuccess
     } else if (mode === "edit" && initialData) {
       const { error } = await updateProduct(initialData.id, data);
       if (!error) {
-        Swal.fire("Success", "Product added!", "success").then(() => {
+        Swal.fire("Success", "Product Updated!", "success").then(() => {
             onSuccess();
             onClose();
             window.location.reload(); 

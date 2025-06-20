@@ -96,9 +96,6 @@ export default function Dashboard () {
                 <ProductList role={role} onEdit={openEditModal} />
             </div>
 
-
-
-
             {showModal && (
                 <ProductFormModal
                 mode={formMode}

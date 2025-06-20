@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { supabase } from '../lib/supabaseClient';
 import { useRouter } from 'next/navigation';
-import Link from 'next/link';
 import Swal from "sweetalert2";
 
 export default function Login() {
@@ -79,10 +78,6 @@ export default function Login() {
             ) : 'Login'}
           </button>
         </form>
-
-        <h2 className="text-center text-black mt-3">
-          Don't have an account? <Link href="/sign-up" className='text-blue-600 underline decoration-blue-600 md:decoration-blue-400'>Sign Up</Link>
-        </h2>
 
         {errorMsg && <p className="mt-4 text-red-500 text-center">{errorMsg}</p>}
       </div>

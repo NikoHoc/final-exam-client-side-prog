@@ -62,7 +62,7 @@ export default function ProductList({ role, onEdit }: ProductListProps) {
         </thead>
         <tbody>
           {products.map((product) => (
-            <tr key={product.id}>
+            <tr className="hover:bg-base-300" key={product.id}>
               <td>{new Date(product.created_at).toLocaleString()}</td>
               <td>{product.nama_produk}</td>
               <td>{product.harga_satuan}</td>

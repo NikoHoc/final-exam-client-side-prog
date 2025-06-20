@@ -56,7 +56,7 @@ export default function Dashboard () {
             setLoading(false);
         };
         fetchUser();
-    }, []);
+    }, [router]);
 
     if (loading) {
         return (
